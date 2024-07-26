@@ -1,8 +1,15 @@
-# pytest cache directory #
+Домашнее задание 24 модуля
 
-This directory contains data from the pytest's cache plugin,
-which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
+В директории /tests располагается файл с тестами
 
-**Do not** commit this to version control.
+В директории images лежат картинки для теста добавления питомца и теста добавления картинки
 
-See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.
+Имеется файл settings.py - содержит информацию о валидном логине и пароле
+
+Имеется файл api.py, который является библиотекой к REST api сервису веб приложения Pet Friends
+
+Библиотека api написана в классе, что соответствует принципам ООП и позволяет удобно пользоваться её методами. При инициализации библиотеки объявляется переменная base_url которая используется при формировании url для запроса.
+
+Методы имеют подробное описание.
+
+Тесты проверяют работу методов используя api библиотеку.
